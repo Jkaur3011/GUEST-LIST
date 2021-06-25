@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title> GUEST LIST</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="guest.PNG">
+    </head>
+
+    <!--Body starting now-->
+    <body>
+        <center>
+            <h1 id="title"> GUEST LIST </h1>
+            <div>
+                <span>Name:
+                    <input placeholder="Guest Name here" id="guest1" type="text"> <br> <br> 
+                </span>
+
+                <span>Name:
+                    <input placeholder="Guest Name here" id="guest2" type="text"> <br> <br> 
+                </span>
+
+                <span>Name:
+                    <input placeholder="Guest Name here" id="guest3" type="text"> <br> <br> 
+                </span>
+
+                <span>Name:
+                    <input placeholder="Guest Name here" id="guest4" type="text"> <br> <br> 
+                </span>
+
+                <span>Name:
+                    <input placeholder="Guest Name here" id="guest5" type="text"> <br> <br> 
+                </span>
+
+                <button id="submit" onclick="submit_names()"> SUBMIT</button> <br> <br> 
+
+                <div id="unordered_names"></div>
+
+                <h3 id="wait"> Names added! Click the button 'Show' to view!</h3> </div>
+
+                <hr> <hr>
+
+                <div>
+                    <h3> GUEST LIST</h1>
+
+                    <button id="show" onclick="show_names()"> Show the Names</button>
+
+                    <div id="names_withoutcommas"></div>
+                </div>
+
+                <hr> <hr>
+
+                <div>
+                    <h3> GUEST LIST</h2>
+                    <button id="sort" onclick="sort_names()"> Sort the Names</button> <br>
+
+                    <div id="sortednames"></div>
+                </div>
+
+                <hr> <hr>
+
+                <div>
+                    <h3> GUEST LIST</h3>
+                    <input style="width: 500px;" type="text" placeholder="Type the Name you want to search">
+                    <button id="search" onclick="search_names()"> Search</button>
+
+                    <div id="searched_names"> </div>
+                </div>
+
+                <hr> <hr>
+                
+            
+        </center>
+    </body>
+</html>

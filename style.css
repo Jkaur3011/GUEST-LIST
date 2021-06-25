@@ -1,0 +1,7 @@
+#wait{
+    display: none;
+}
+body{
+  background: radial-gradient(circle at top right, violet 2%, #D38312 30%, transparent), radial-gradient(circle at bottom center, green -15%, blue 50%, yellow);
+}
+}
